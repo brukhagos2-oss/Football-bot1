@@ -4,8 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "buildCommand": "npm install && npm run build",
-    "startCommand": "npm run start",
+    "startCommand": "python main.py",
     "healthcheckPath": "/api/health",
     "healthcheckTimeout": 120,
     "restartPolicyType": "ON_FAILURE",
